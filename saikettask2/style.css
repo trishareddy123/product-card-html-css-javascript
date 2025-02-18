@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title */
+.title {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Product Container (Grid Layout) */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Product Card */
+.product-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Image */
+.product-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Product Name */
+.product-name {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Product Price */
+.product-price {
+    font-size: 18px;
+    color: #ff5733;
+    font-weight: bold;
+}
+
+/* Button Styling */
+.add-to-cart {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.add-to-cart:hover {
+    background-color: #e04e2f;
+}
